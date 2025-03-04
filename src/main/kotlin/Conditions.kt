@@ -1,11 +1,19 @@
 fun main() {
 
-    // Tipos Primitivos
+    // IF / ELSE
+    val product = "iPhone"
+    if (product.length < 3) {
+        println("Product is too short")
+    } else {
+        println("Product is long enough")
+    }
 
-    val mensagem = """
-        Olá, mundo!
-        Eu sou um programa em Kotlin.
-    """.trimIndent()
+    // VAR/VAL INPUT BY USER
+    val userInput = readLine() ?: "default"
+    if (userInput.length < 3) {
+        println("$userInput is too short")
+    } else {
+        println("$userInput is long enough")
+    }
 
-    println(mensagem)
 }
