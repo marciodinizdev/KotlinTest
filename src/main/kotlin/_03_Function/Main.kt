@@ -1,8 +1,13 @@
+package _03_Function
+
 fun main() {
 
+    /// Functions execution
     helloWorld()
     sum(3, 4)
     operations(12, 4)
+    funInline()
+    notInline()
 
 }
 
@@ -37,4 +42,10 @@ fun operations(a: Int, b: Int) {
     subtract()
     multiply()
     divide()
+}
+
+// Function inline
+fun funInline() = println("This is an inline function.")
+fun notInline() {
+    println("This is not an inline function.")
 }
