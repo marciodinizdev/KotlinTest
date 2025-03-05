@@ -1,4 +1,4 @@
-package _01_HelloWorld
+package Module01._01_HelloWorld
 
 fun main() {
 
