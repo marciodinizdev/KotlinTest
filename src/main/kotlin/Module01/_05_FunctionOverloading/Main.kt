@@ -6,14 +6,14 @@ fun main() {
     // Execute loginVerify function
     loginVerify("Ramon", "12345")
     loginVerify(12345, true)
+
+    // Execute registerUser function
+    registerUser()
+
 }
 
 // Function 1
 fun loginVerify(username: String, password: String) {
-    println("Enter your username: ")
-    val username = readLine() ?: "default"
-    println("Enter your password: ")
-    val password = readLine() ?: "default"
     if (username == "Ramon" && password == "12345") {
         println("Login successful!")
     } else {
@@ -28,4 +28,11 @@ fun loginVerify(captcha: Int, isAdmin: Boolean) {
     } else {
         println("Login failed!")
     }
+}
+
+// Function with default parameter value
+// If not provided, use default values
+fun registerUser(username: String = "Desconhecido", isAdmin: Boolean = false) {
+    println("Registering user with username: $username")
+    println("User is admin: $isAdmin")
 }
