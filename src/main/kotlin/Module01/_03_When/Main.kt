@@ -1,4 +1,4 @@
-package Module01._06_When
+package Module01._03_When
 
 // Exemple  1
 fun checkAge() {
