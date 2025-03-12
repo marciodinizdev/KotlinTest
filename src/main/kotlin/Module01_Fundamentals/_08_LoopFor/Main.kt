@@ -27,6 +27,13 @@ fun getNameAndIndex() {
     }
 }
 
+// Exemple 4: For with range
+fun forWithRange() {
+    for (i in 0..Module01_Fundamentals._09_ForEach.names.lastIndex) {
+        println("Index $i: ${Module01_Fundamentals._09_ForEach.names[i]}")
+    }
+}
+
 fun main() {
-    getNameAndIndex()
+    forWithRange()
 }

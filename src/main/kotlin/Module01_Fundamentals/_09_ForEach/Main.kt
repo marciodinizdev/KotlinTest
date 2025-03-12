@@ -19,13 +19,6 @@ fun forEachWithIndex() {
     }
 }
 
-// Exemple 3: For with
-fun forWithRange() {
-    for (i in 0..names.lastIndex) {
-        println("Index $i: ${names[i]}")
-    }
-}
-
 fun main() {
-    forWithRange()
+    forEachWithIndex()
 }
