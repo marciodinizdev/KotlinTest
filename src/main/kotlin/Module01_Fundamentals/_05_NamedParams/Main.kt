@@ -1,4 +1,4 @@
-package Module01._05_NamedParams
+package Module01_Fundamentals._05_NamedParams
 
 fun main() {
 

@@ -1,4 +1,4 @@
-package Module01._02_Conditions
+package Module01_Fundamentals._02_Conditions
 
 fun main() {
 

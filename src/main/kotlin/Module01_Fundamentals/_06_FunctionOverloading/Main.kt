@@ -1,4 +1,4 @@
-package Module01._06_FunctionOverloading
+package Module01_Fundamentals._06_FunctionOverloading
 
 // Overloading is the ability to define multiple functions with the same name but different parameters.
 
