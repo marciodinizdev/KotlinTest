@@ -1,11 +1,11 @@
 package Module02_ObjectOrientation._11_Topic01
 
-class Dog {
+class Dog(private val ownerName: String) {
 
     var name: String? = null
     var age: Int? = null
 
-    fun sayHi(ownerName: String) {
+    fun sayHi() {
         println("Hi, $ownerName, my name is $name and I am $age years old!")
     }
 
