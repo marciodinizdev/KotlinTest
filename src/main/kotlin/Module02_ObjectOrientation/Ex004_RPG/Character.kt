@@ -3,9 +3,20 @@ package Module02_ObjectOrientation.Ex004_RPG
 class Character (
     val name: String,
     var hp: Int,
-    val atk: Int,
+    var atk: Int,
     val def: Int
 ) {
+
+    var maxHP: Int = hp
+
+    fun heal(amount: Int) {
+        hp += amount
+        // Garantir que a vida não ultrapasse o máximo
+        if (hp > maxHP) {
+            hp = maxHP
+        }
+        println("$name healed $amount HP! Current HP: $hp")
+    }
 
     // Function attack
     fun attack(enemy: Enemy) {
@@ -17,7 +28,6 @@ class Character (
             println("${enemy.name} defends the attack")
 
         }
-        println("Enemy HP: ${enemy.hp}")
     }
 
     // Function take damage
@@ -29,12 +39,6 @@ class Character (
         } else {
             println("$name defends the attack")
         }
-    }
-
-    fun potion(hpHealed: Int) {
-        hp += 100
-        println("$name uses POTION and heals $hpHealed HP")
-        println("HP: $hp")
     }
 
     fun alive(): Boolean {
