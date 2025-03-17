@@ -24,6 +24,7 @@ class Character (
         if (damage > 0) {
             enemy.hp = enemy.hp - damage
             println("$name attacks ${enemy.name} and deals $damage damage")
+            println("${enemy.name} HP: ${enemy.hp}")
         } else {
             println("${enemy.name} defends the attack")
 
@@ -45,6 +46,9 @@ class Character (
         if ( hp > 0) {
             return true
         } else {
+            println()
+            println("$name has been defeated!")
+            println("Game over!")
             return false
         }
     }

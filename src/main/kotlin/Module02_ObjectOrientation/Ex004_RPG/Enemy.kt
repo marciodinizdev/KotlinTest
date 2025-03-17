@@ -1,13 +1,11 @@
 package Module02_ObjectOrientation.Ex004_RPG
 
-import Module02_ObjectOrientation.Ex004_RPG.Character
-
 class Enemy (
     val name: String,
     var hp: Int,
     val atk: Int,
     val def: Int,
-
+    val exp: Int
 ) {
 
     fun attack(character: Character) {
@@ -15,6 +13,7 @@ class Enemy (
         if (damage > 0) {
             character.hp = character.hp - damage
             println("$name attacks ${character.name} and deals $damage damage")
+            println("${character.name} HP: ${character.hp}")
         } else {
             println("${character.name} defends the attack")
         }
@@ -34,6 +33,9 @@ class Enemy (
         if (hp > 0) {
             return true
         } else {
+            println()
+            println("$name has been defeated!")
+            println("Exp gained: $exp")
             return false
         }
     }
