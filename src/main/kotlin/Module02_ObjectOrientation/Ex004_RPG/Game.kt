@@ -19,8 +19,8 @@ fun gameStart() {
     val enemy = enemies.random()
     
     println("Battle starts! Enemy: ${enemy.name} | HP: ${enemy.hp}")
-    println("${noctis.name} HP: ${noctis.hp} --|x|-- ${enemy.name}  HP: ${enemy.hp} \n")
-    println("Choose an action: \n1. Attack \n2. Heal \n3. Run away")
+    println("${noctis.name} HP: ${noctis.hp} ⚔\uFE0F ${enemy.name}  HP: ${enemy.hp} \n")
+    println("Choose an action: \n1 -> Attack \n2 -> Heal \n3 -> Run away")
 
     while (noctis.alive() && enemy.alive()) {
 
