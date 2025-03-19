@@ -1,4 +1,4 @@
-package Module02_ObjectOrientation.Ex003_Calculator
+package Module02_ObjectOrientation._11_IntroducingPOO.Ex003_Calculator
 
 class Calculator {
 

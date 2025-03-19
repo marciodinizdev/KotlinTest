@@ -1,4 +1,4 @@
-package Module02_ObjectOrientation.Ex003_Calculator
+package Module02_ObjectOrientation._11_IntroducingPOO.Ex003_Calculator
 
 fun main() {
     val calculator = Calculator()

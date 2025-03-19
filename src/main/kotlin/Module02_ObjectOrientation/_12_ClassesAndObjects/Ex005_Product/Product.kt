@@ -1,4 +1,4 @@
-package Module02_ObjectOrientation.Ex005_Product
+package Module02_ObjectOrientation._12_ClassesAndObjects.Ex005_Product
 
 class Product (
     val name: String,

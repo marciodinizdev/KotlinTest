@@ -1,4 +1,4 @@
-package Module02_ObjectOrientation.Ex004_RPG
+package Module02_ObjectOrientation._11_IntroducingPOO.Ex004_RPG
 
 fun gameStart() {
 
@@ -25,7 +25,7 @@ fun gameStart() {
     while (noctis.alive() && enemy.alive()) {
 
         println("Action: ")
-        var choice = readLine()
+        var choice = readLine() // Read user input
         when (choice) {
             "1" -> noctis.attack(enemy)
             "2" -> item.use(noctis)

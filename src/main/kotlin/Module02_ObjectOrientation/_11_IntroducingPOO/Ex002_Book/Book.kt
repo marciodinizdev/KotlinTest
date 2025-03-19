@@ -1,4 +1,4 @@
-package Module02_ObjectOrientation.Ex002_Book
+package Module02_ObjectOrientation._11_IntroducingPOO.Ex002_Book
 
 class Book {
     // Attributes

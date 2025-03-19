@@ -1,4 +1,4 @@
-package Module02_ObjectOrientation.Ex005_Product
+package Module02_ObjectOrientation._12_ClassesAndObjects.Ex005_Product
 
 fun main() {
     var notebookDell = Product("Notebook Dell", 2000.00, 5)

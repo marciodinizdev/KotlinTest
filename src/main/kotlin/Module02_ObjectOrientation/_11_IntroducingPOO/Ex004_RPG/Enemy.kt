@@ -1,4 +1,4 @@
-package Module02_ObjectOrientation.Ex004_RPG
+package Module02_ObjectOrientation._11_IntroducingPOO.Ex004_RPG
 
 class Enemy (
     val name: String,

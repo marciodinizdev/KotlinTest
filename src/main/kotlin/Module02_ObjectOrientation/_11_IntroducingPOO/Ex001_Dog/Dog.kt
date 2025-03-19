@@ -1,4 +1,4 @@
-package Module02_ObjectOrientation.Ex001_Dog
+package Module02_ObjectOrientation._11_IntroducingPOO.Ex001_Dog
 
 class Dog(private val ownerName: String) {
 

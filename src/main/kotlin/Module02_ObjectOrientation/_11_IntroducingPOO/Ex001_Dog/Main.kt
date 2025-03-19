@@ -1,4 +1,4 @@
-package Module02_ObjectOrientation.Ex001_Dog
+package Module02_ObjectOrientation._11_IntroducingPOO.Ex001_Dog
 
 
 fun main() {
